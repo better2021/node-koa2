@@ -1,0 +1,36 @@
+{
+  "name": "koa2-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feiyuWeb/koa2-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feiyuWeb/koa2-node/issues"
+  },
+  "homepage": "https://github.com/feiyuWeb/koa2-node#readme",
+  "dependencies": {
+    "koa": "^2.8.1",
+    "koa-router": "^7.4.0",
+    "axios": "^0.18.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "koa-bodyparser": "^4.2.1",
+    "lodash": "^4.17.11",
+    "mysql2": "^1.6.5",
+    "require-directory": "^2.1.1",
+    "sequelize": "^5.8.6",
+    "validator": "^10.11.0"
+  }
+}
